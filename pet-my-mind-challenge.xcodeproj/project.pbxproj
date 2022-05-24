@@ -16,6 +16,12 @@
 		C00A095B28319C27003E9CAA /* pet_my_mind_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A095A28319C27003E9CAA /* pet_my_mind_challengeTests.swift */; };
 		C00A096528319C27003E9CAA /* pet_my_mind_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A096428319C27003E9CAA /* pet_my_mind_challengeUITests.swift */; };
 		C00A096728319C27003E9CAA /* pet_my_mind_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A096628319C27003E9CAA /* pet_my_mind_challengeUITestsLaunchTests.swift */; };
+		C04645C128356D820013DCDD /* tipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04645C028356D820013DCDD /* tipsViewController.swift */; };
+		C04645C328356DAA0013DCDD /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04645C228356DAA0013DCDD /* aboutViewController.swift */; };
+		C04645C928356E4E0013DCDD /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04645C828356E4E0013DCDD /* CarouselViewController.swift */; };
+		C04645CB28356EFA0013DCDD /* dayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04645CA28356EFA0013DCDD /* dayViewController.swift */; };
+		C0AC31B0283686610045F956 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC31AF283686610045F956 /* CarouselCell.swift */; };
+		C0AC31B22836867C0045F956 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC31B12836867C0045F956 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		C00A096028319C27003E9CAA /* pet-my-mind-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pet-my-mind-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00A096428319C27003E9CAA /* pet_my_mind_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pet_my_mind_challengeUITests.swift; sourceTree = "<group>"; };
 		C00A096628319C27003E9CAA /* pet_my_mind_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pet_my_mind_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C04645C028356D820013DCDD /* tipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsViewController.swift; sourceTree = "<group>"; };
+		C04645C228356DAA0013DCDD /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		C04645C828356E4E0013DCDD /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		C04645CA28356EFA0013DCDD /* dayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayViewController.swift; sourceTree = "<group>"; };
+		C0AC31AF283686610045F956 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		C0AC31B12836867C0045F956 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				C00A094228319C26003E9CAA /* pet-my-mind-challenge */,
+				C04645CF283582730013DCDD /* Flat Navigation */,
 				C00A095928319C27003E9CAA /* pet-my-mind-challengeTests */,
 				C00A096328319C27003E9CAA /* pet-my-mind-challengeUITests */,
 				C00A094128319C26003E9CAA /* Products */,
@@ -99,11 +112,15 @@
 		C00A094228319C26003E9CAA /* pet-my-mind-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				C0AC31B12836867C0045F956 /* CarouselView.swift */,
+				C0AC31AF283686610045F956 /* CarouselCell.swift */,
 				C00A094328319C26003E9CAA /* AppDelegate.swift */,
 				C00A094528319C26003E9CAA /* SceneDelegate.swift */,
 				C00A094728319C26003E9CAA /* ViewController.swift */,
 				C00A094928319C26003E9CAA /* Main.storyboard */,
 				C00A094C28319C27003E9CAA /* Assets.xcassets */,
+				C04645C828356E4E0013DCDD /* CarouselViewController.swift */,
+				C04645CA28356EFA0013DCDD /* dayViewController.swift */,
 				C00A094E28319C27003E9CAA /* LaunchScreen.storyboard */,
 				C00A095128319C27003E9CAA /* Info.plist */,
 			);
@@ -125,6 +142,16 @@
 				C00A096628319C27003E9CAA /* pet_my_mind_challengeUITestsLaunchTests.swift */,
 			);
 			path = "pet-my-mind-challengeUITests";
+			sourceTree = "<group>";
+		};
+		C04645CF283582730013DCDD /* Flat Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C04645C228356DAA0013DCDD /* aboutViewController.swift */,
+				C04645C028356D820013DCDD /* tipsViewController.swift */,
+			);
+			name = "Flat Navigation";
+			path = "pet-my-mind-challenge";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +287,13 @@
 			files = (
 				C00A094828319C26003E9CAA /* ViewController.swift in Sources */,
 				C00A094428319C26003E9CAA /* AppDelegate.swift in Sources */,
+				C04645C928356E4E0013DCDD /* CarouselViewController.swift in Sources */,
+				C0AC31B0283686610045F956 /* CarouselCell.swift in Sources */,
+				C0AC31B22836867C0045F956 /* CarouselView.swift in Sources */,
+				C04645CB28356EFA0013DCDD /* dayViewController.swift in Sources */,
+				C04645C128356D820013DCDD /* tipsViewController.swift in Sources */,
 				C00A094628319C26003E9CAA /* SceneDelegate.swift in Sources */,
+				C04645C328356DAA0013DCDD /* aboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
